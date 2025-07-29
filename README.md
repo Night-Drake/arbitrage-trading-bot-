@@ -17,7 +17,9 @@ This Python script automates triangular arbitrage on the KuCoin exchange using t
 📂 File Structure:
 
   api.env – Stores your KuCoin API credentials (API_KEY, API_SECRET, API_PASSPHRASE)
+  
   arbitrage cobinations.txt – List of coin combinations in the format:
+  
   COIN1/USDT -> COIN2/COIN1 -> COIN2/USDT
 
   profitable_combinations.txt – Output log of profitable trades detected
@@ -47,7 +49,9 @@ This Python script automates triangular arbitrage on the KuCoin exchange using t
 📌 Requirements:
 
   Python 3.7+
+  
   ccxt
+  
   python-dotenv
 
 
