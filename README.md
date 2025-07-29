@@ -1,6 +1,7 @@
 This Python script automates triangular arbitrage on the KuCoin exchange using the CCXT library. It detects profitable trading loops and executes trades in real-time.
 
 🚀 Features:
+
   ✅ Fetches real-time bid/ask prices from KuCoin
 
   ✅ Detects arbitrage opportunities across 3-coin combinations
